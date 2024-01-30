@@ -27,3 +27,8 @@ roslaunch netft_rdt_driver netft_rrt_controller.launch ip_address:=192.168.1.1
 ``` 
 
 For more insights regarding this implementation please read this [useful discussion](https://github.com/ros-controls/ros_control/issues/130).
+
+
+### changes
+Commented out all rtt drivers in package.xml and CMakeLists.xml. If you want to run rtt drivers, you'll need to install / build the Orocos Toolchain and the ros integration packages. Instructions can be found here: [https://github.com/orocos/rtt_ros_integration
+](https://github.com/orocos/rtt_ros_integration?tab=readme-ov-file#building-orocos-from-source)
